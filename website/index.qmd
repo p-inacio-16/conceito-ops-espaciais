@@ -9,15 +9,13 @@ format:
       dark: darkly
 ---
 
-![](header.png){width=800}
-
 
 <div style="text-align: center">
 
 
-# Impact of Synthetic Images in the Training of Neural Networks for Airborne Vessel Segmentation 
+# Conceito de Operações Espaciais na Força Aérea Portuguesa: integração de satélites EO 
 
-**Francisco Matilde, Gonçalo Cruz, Diogo Silva**
+**Pedro Inácio, Pedro Costa, José Viana**
 
 ![](fap_afa.png){width=400}
 
@@ -27,7 +25,7 @@ format:
 Automation scripts for Blender and other utilities used in the development of this work can be found in the official [Github repository](https://github.com/ciafa-sw/synthetic_vessel_detection).
 :::
 
-Synthetic images have appeared as a possible solution to the scarcity of real images for training neural networks. We investigate their use in the training of ship detectors in aerial imagery. We create a synthetic dataset through 2 distinct methods: modeling and rendering with Blender, and a learning-based approach with GauGAN. YOLACT++ was chosen as the detector and its performance was evaluated when synthetic images were included in its training. The results suggest that synthetic augmentations can improve a model's performance, under certain conditions. Adding synthetic data to large training sets degraded performance on the target domain, but significantly improved it on small datasets.
+
 
 
 ---
